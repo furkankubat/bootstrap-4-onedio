@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap 4 ile ilk Onedio.Com Tasarimi</title>
+  <meta name="description" content="Onedio.Com Tasarimi">
+  <meta name="keywords" content="udemy, furkan kubat, onedio">
+  <meta name="author" content="Furkan Kubat">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <style type="text/css">
+    .a{
+      min-height: 282px;
+    }
+
+    .b{
+      min-height: 137px;
+    }
+
+    .c {
+      min-height: 282px;
+    }
+
+    .margin-left{
+      margin-left: -20px;
+    }
+
+    .d {
+      margin-right: 5000px;
+    }
+
+    .e{
+     outline: none;
+   }
+
+   .card-img-icon {
+
+    position: absolute;
+    width: 40px;
+    margin-left: -15px;
+    margin-top: -15px;
+
+   }
+
+ </style>
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border border-secondary border-top-0 border-left-0 border-right-0">
+
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#onediomenuac">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="index.html" class="navbar-brand"><img src="img/onedio.png"></a>
+
+
+      <div class="collapse navbar-collapse" id="onediomenuac">
+        <ul class="navbar-nav mr-auto">
+
+          <a style="font-size: 12px; font-family: Tahoma" href="#" class="nav-link text-muted">GÜNDEM</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="font-size: 12px; font-family: Tahoma" href="#" class="nav-link text-muted">GALERİLER</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="font-size: 12px; font-family: Tahoma" href="#" class="nav-link text-muted">VİDEOLAR</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="font-size: 12px; font-family: Tahoma" href="#" class="nav-link text-muted">TESTLER</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a style="font-size: 12px; font-family: Tahoma" href="#" class="nav-link text-muted dropdown-toggle" data-toggle="dropdown">KATEGORİLER</a>
+
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Onedio Özel</a>
+            <a href="#" class="dropdown-item">Türkiye</a>
+            <a href="#" class="dropdown-item">Dünya</a>
+            <a href="#" class="dropdown-item">Yemek</a>
+            <a href="#" class="dropdown-item">Eğlence</a>
+            <a href="#" class="dropdown-item">İş Dünyası</a>
+            <a href="#" class="dropdown-item">Yaşam</a>
+            <a href="#" class="dropdown-item">Teknoloji</a>
+          </div>
+
+
+        </li>
+      </ul>
+
+      <form class="form-inline">
+        <input type="text" class="form-control form-control-sm" placeholder="Ara..." name="">
+        <i style="margin-left: -30px;" class="fa fa-search"></i>
+      </form>
+
+      <i class="fa fa-sign-in ml-2"><span></i>Giriş Yap</span>
+
+      <button style="background-color: #567EB5;" class="button-sm ml-1 text-white border-light"><i class="fa fa-facebook ml-2"><span></i> | Facebook İle Giriş</button>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div class="container">
+
+    <div class="row mt-2">
+      <div class="col-md-12 ">
+
+        <img class="img-fluid" width="1100" src="http://www.jeyyu.com/wp-content/uploads/2014/09/serenay-sarikaya-mavi-gold-yeni-reklami-izle.jpg">
+
+      </div>
+    </div>
+
+    <div class="row margin-left my-2" >
+     <div class="col-md-5">
+      <div class="card border-0">
+        <img class="card-img c" src="https://imgrosetta.mynet.com.tr/file/2341945/2341945-640x360.jpg">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <a href="#"><h6 class="text-white">İstanbul Seçimlerinde Galip Belli Oldu</h6></a>
+          <p class="card-text text-white">İstanbul seçimleri bitti son dakika haberlerimizde....</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card border-0">
+        <img class="card-img a" src="https://cdn.yeniakit.com.tr/images/news/625/kahramanmarastan-aci-haber-1-polis-memuru-hayatini-kaybetti-h1561477590-984ad7.jpg">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <a href="#"><h6 class="text-white">Bursa'da Feci Gaza</h6></a>
+          <p class="card-text text-white">Bursa Ankara yolun da bayram dönüşü...</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-3">
+      <div class="card border-0">
+        <img class="card-img b" src="https://i.cnnturk.com/i/cnnturk/75/0x0/5d111d1bbf21442058c70ab4.jpg">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <a href="#"><h6 class="text-white">Sivas'ta Büyük Kavga</h6></a>
+          <p class="card-text text-white">Sivasta iki aile arasında çıkan kavgada...</p>
+        </div>
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img b" src="http://imggaleri.hurriyet.com.tr/LiveImages/Spor%20Foto/294/Hereke%20Y%C4%B1ld%C4%B1z-Gebze%20ma%C3%A7%C4%B1nda%20inan%C4%B1lmaz%20kavga/778.jpg">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <a href="#"><h6 class="text-white">Saha'da Büyük Kavga</h6></a>
+          <p class="card-text text-white">Amatör lig karşılaşmasında çıkan kavgada...</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row mt-4">
+
+    <div class="col-md-5">
+      <h6>Haberler</h6>
+      <hr>
+      <div class="card border-0">
+        <img class="card-img-icon" src="img/icon.1.png">
+        <img src="img/haberler.1.PNG">
+        <a href="#"><h5 class="card-title text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 0</i> <i class="ml-2 fa fa-whatsapp"> 3</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+        
+        <hr>
+
+        <img src="img/haberler.2.PNG">
+        <a href="#"><h5 class="card-title text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+        
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 2</i> <i class="ml-2 fa fa-whatsapp"> 0</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/haberler.3.PNG">
+        <a href="#"><h5 class="card-title text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 3</i> <i class="ml-2 fa fa-whatsapp"> 5</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/haberler.4.PNG">
+        <a href="#"><h5 class="card-title text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 0</i> <i class="ml-2 fa fa-whatsapp"> 1</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <a href="#"><h6 class="mt-3">Onedio Orjinal Videolar</h6></a>
+
+        <hr class="my-2">
+
+        <div class="row">
+          
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="img/onediovideo.1.PNG">
+              <a href="#"><h5 class="card-title text-dark">Bir Rapçi 10 Diss: Kamufle!</h5></a>
+              <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 0</i> <i class="ml-2 fa fa-whatsapp"> 1</i></div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="img/onediovideo.2.PNG">
+              <a href="#"><h5 class="card-title text-dark">Dert Babası: Bir Kadını Kendime Nasıl Bağlarım?</h5></a>
+              <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 0</i> <i class="ml-2 fa fa-whatsapp"> 1</i></div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0">
+              <img src="img/onediovideo.3.PNG">
+              <a href="#"><h5 class="card-title text-dark">Öğrenci Evleri Yarışıyor: Kızlar vs Erkekler 2. Bölüm</h5></a>
+              <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 0</i> <i class="ml-2 fa fa-whatsapp"> 1</i></div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+      </div>
+      
+    </div>
+
+    <div class="col-md-4">
+      <h6>Galeriler</h6>
+      <hr>
+
+      <div class="card border-0">
+        <img height="160" src="img/galeri.1.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 1</i> <i class="ml-2 fa fa-whatsapp"> 2</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.2.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 19</i> <i class="ml-2 fa fa-whatsapp"> 323</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.3.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 7</i> <i class="ml-2 fa fa-whatsapp"> 20</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.4.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook">36</i> <i class="ml-2 fa fa-whatsapp"> 132</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.5.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 56</i> <i class="ml-2 fa fa-whatsapp"> 25</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.6.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 23</i> <i class="ml-2 fa fa-whatsapp"> 45</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.7.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook">34</i> <i class="ml-2 fa fa-whatsapp"> 1</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.8.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 43</i> <i class="ml-2 fa fa-whatsapp"> 243</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.9.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 2</i> <i class="ml-2 fa fa-whatsapp"> 65</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.10.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 34</i> <i class="ml-2 fa fa-whatsapp"> 45</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/galeri.11.PNG">
+        <a href="#" class="card-title"><h5 class="text-dark">Haber Başlığı</h5></a>
+        <div class="card-text"><p>Haber İçeriği</p></div>
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 73</i> <i class="ml-2 fa fa-whatsapp"> 23</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+      </div>
+
+      <hr>
+
+    </div>
+
+    <div class="col-md-3">
+      <h6>Videolar</h6>
+      <hr>
+
+      <div class="card border-0">
+        <img src="img/videolar.1.PNG">
+        <a href="https://www.youtube.com/watch?v=Wek9wYI5bcc" class="card-title"><h5 class="text-dark">Videoya Git</h5></a>
+        
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 7</i> <i class="ml-2 fa fa-whatsapp"> 20</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/videolar.2.PNG">
+        <a href="https://www.youtube.com/watch?v=ad1m_0goZmo" class="card-title"><h5 class="text-dark">Videoya Git</h5></a>
+        
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 3</i> <i class="ml-2 fa fa-whatsapp"> 34</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/videolar.3.PNG">
+        <a href="https://www.youtube.com/watch?v=tFLBxXLhb-M" class="card-title"><h5 class="text-dark">Videoya Git</h5></a>
+        
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 4</i> <i class="ml-2 fa fa-whatsapp"> 29</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/videolar.4.PNG">
+        <a href="https://www.youtube.com/watch?v=G6Z44AHCBkM" class="card-title"><h5 class="text-dark">Videoya Git</h5></a>
+        
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 1</i> <i class="ml-2 fa fa-whatsapp"> 210</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/videolar.5.PNG">
+        <a href="https://www.youtube.com/watch?v=TDwaAJjR_Zc" class="card-title"><h5 class="text-dark">Videoya Git</h5></a>
+        
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 6</i> <i class="ml-2 fa fa-whatsapp"> 0</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+
+        <img src="img/videolar.6.PNG">
+        <a href="https://www.youtube.com/watch?v=bcZ71Oh9gI4" class="card-title"><h5 class="text-dark">Videoya Git</h5></a>
+        
+
+        <div class="text-muted mr-3" style="font-size: 15px;"><i class="fa fa-facebook"> 9</i> <i class="ml-2 fa fa-whatsapp"> 50</i><span class="text-muted ml-3" style="font-size: 13px;">27 Haziran, 19:07</span></div>
+
+        <hr>
+        
+        
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
